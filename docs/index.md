@@ -1,54 +1,51 @@
-# Génie logiciel - Épreuve terminale de cours
+# Votre nom ici - ÉTC
 
-Suteur : [votre nom ici]
+
+Auteur : [votre nom ici]
 
 Sujet : [Nom de projet]
 
-[description du projet, son contexte, les besoins]
 
-## Besoins
+[écrivez ici la description du projet, son contexte, le besoin à combler]
 
-### Suppositions
+<!--
 
-[Hypothèses et dépendances](Hypotheses.md)
+Trouvez un titre adéquat pour le projet
 
-### Qualités et contraintes
+Mettez à jour le titre sur la première ligne de ce fichier 
 
-Besoins non-fonctionnels
+Mettez aussi à jour le document README.md à la racine du dossier git
 
+-->
 
-### Modélisation du domaine
+## Documentation du projet
 
-[Abstractions principales](Abstractions.md)
+### 1. Analyse
 
-* Modèle du domaine
-* Glossaire
+1. [Information obtenues du client](1_Analyse/1.1_InfoClient/index.md)
+1. [Hypothèses et dépendances](1_Analyse/1.2_Hypotheses.md)
+1. [Cas d'utilisations](1_Analyse/1.3_UseCases/index.md)
+1. [Abstractions principales / glossaire](1_Analyse/1.4_Abstractions.md)
+1. [Analyse avancée (détails)](1_Analyse/1.5_Details.md)
+1. [Analyse de robustesse](1_Analyse/1.6_Robust.md)
 
-[Cas d'utilisations](UseCase/index.md)
-* Vue d'ensemble
-* Fiches des cas
+### 2. Solution
 
-### Analyse
-
-* [Modèle d'analyse]()
-* [Analyse de robustesse]()
-
-## Solution
-
-### Architecture
-
-#### Cadre architectural
-
-<!-- Technologies et frameworks utilisés -->
-
-#### Vue opérationnelle
-
-* [Diagrammes de composantes]()
-* [Diagramme de déploiement]()
+1. [Conception](2_Solution/2.1_Conception.md)
+1. [Paquetages](2_Solution/2.2_Paquetages.md)
+1. [Composantes](2_Solution/2.3_Composantes.md)
+1. [Déploiement](2_Solution/2.4_Deploiement.md)
 
 
-## Validation et vérifications
 
-### Stratégies
+### 3. Validation 
 
-### Plans de tests
+Stratégie de test
+
+<!--
+[Expliquez brièvement ici les moyens que vous allez utiliser pour assurer la qualité de votre solution]
+-->
+
+Plans
+
+* [Plans de tests](3_Validation/index.md)

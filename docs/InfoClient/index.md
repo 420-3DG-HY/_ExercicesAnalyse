@@ -1,1 +1,0 @@
-# Information provenant du client 
