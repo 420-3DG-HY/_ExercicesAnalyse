@@ -22,11 +22,39 @@
 hide circle
 hide attribute
 hide method
-class concept1
-class concept1
 
-concept1 o- concept2
+class Croupier
 
+class "Chef de table" as ChefTable
+
+class Table{
+    
+}
+
+class Tournoi
+
+class Joueur {
+    bool actif
+}
+
+class "Chef d'équipe" as ChefEquipe
+
+class Équipe
+
+Équipe o-- "1..2" ChefEquipe
+Table o-- "0..1" Croupier
+Équipe o-- "*" Croupier
+Équipe o-- ChefTable
+
+ChefTable o-- "*" Table
+
+
+Table o-- "0..10" Joueur
+
+Tournoi o-- "0..250" Joueur
+Tournoi o-- "1..25" Table
+
+Tournoi o-- Équipe
 ```
 
 ## Glossaire (Langage ubiquitaire)

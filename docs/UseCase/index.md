@@ -3,6 +3,13 @@
 ```plantuml
 
 left to right direction
+
+actor  croupier
+
+actor "Chef de table" as Chef
+
+actor Joueur
+
 x--(cas 1)
 x--(cas 2)
 

@@ -1,11 +1,9 @@
-# Épreuve terminale de cours (ÉTC)
+# Exercice live
 
-Nom : <!-- Écrivez votre nom ici -->
+Sujet : Salon de Poker
 
-Sujet : <!-- Nommez le sujet de votre projet ici 
+Réservations pour un tournoi 
 
-description du projet, son contexte, les besoins
+Documentation en ligne
 
--->
-
-## Consultez le plan de cours pour les modalités de ce travail
+https://420-3dg-hy.github.io/_ExercicesAnalyse/
