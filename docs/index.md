@@ -1,22 +1,11 @@
 # Votre nom ici - ÉTC
 
 
-Auteur : [votre nom ici]
+Auteur : Stéphane Denis
 
-Sujet : [Nom de projet]
+Sujet : Tournoi de poker
 
-
-[écrivez ici la description du projet, son contexte, le besoin à combler]
-
-<!--
-
-Trouvez un titre adéquat pour le projet
-
-Mettez à jour le titre sur la première ligne de ce fichier 
-
-Mettez aussi à jour le document README.md à la racine du dossier git
-
--->
+Le but du projet est de gérer l'assignation du personnel et des clients aux tables de jeu pendant un tournoi de poker.
 
 ## Documentation du projet
 
