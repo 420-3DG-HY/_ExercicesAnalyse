@@ -12,16 +12,17 @@ usecase "Brise table" as bt
 
 usecase "Assigne joueur" as aj
 
-ChefE --  bt
-ChefE -- (Assigner croupier)
+ChefE -->  bt
+ChefE --> (Assigner croupier)
+ChefE --> (Créer Tournoi)
 
-Croupier -- (NotifieÉlimination)
+Croupier --> (NotifieÉlimination)
 
-ChefT -- (Ferme table)
-ChefT -- aj
+ChefT --> (Ferme table)
+ChefT --> aj
 
-NotifieÉlimination ..>  bt :extends
-NotifieÉlimination ..>  aj :extends
+NotifieÉlimination -->  ChefE
+NotifieÉlimination --> ChefT
 ```
 
 [Créez une fiche (fichier distinct) par cas d'utilisation]
